@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<base href="/reactiongame/">
-	<link rel="manifest" href="manifest.json">
     <meta charset="UTF-8">
     <title>Reaction Speed Game</title>
+
+    <!-- GitHub Pages 경로 설정 -->
+    <base href="/reactiongame/">
+
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,11 +19,12 @@
     </div>
 
     <script src="script.js"></script>
+
     <script>
-if ("serviceWorker" in navigator) {
-navigator.serviceWorker.register("service-worker.js", { scope: "/reactiongame/" });}
-</script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
+    </script>
+
 </body>
 </html>
-
-
