@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <title>Reaction Speed Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gameArea">
+        <h1 id="message">Click Start</h1>
+        <button id="startBtn">Start</button>
+        <p id="bestScore"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+</body>
+</html>

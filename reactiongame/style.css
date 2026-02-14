@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+#gameArea {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
