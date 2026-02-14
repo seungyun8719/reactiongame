@@ -1,11 +1,12 @@
-const CACHE_NAME = "reaction-game-v1";
+const CACHE_NAME = "reaction-game-v2";
 
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/script.js",
-  "/manifest.json"
+  "./",
+  "./index.html",
+  "./style.css",
+  "./script.js",
+  "./manifest.json",
+  "./icon.png"
 ];
 
 self.addEventListener("install", function(event) {
